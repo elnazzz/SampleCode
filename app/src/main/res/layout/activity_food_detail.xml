@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_branding_four">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_widget"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize" />
+
+        <ImageView
+            android:id="@+id/food_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/horizontal_margin_half"
+            android:paddingTop="@dimen/activity_default_margin_top_or_bottom"
+            android:src="@drawable/food_image"/>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/food_info_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/default_margin"
+            app:cardCornerRadius="@dimen/card_view_corner_radius"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_default_margin_top_or_bottom"
+                android:paddingTop="@dimen/default_margin">
+
+
+                <TextView
+                    android:id="@+id/food_title"
+                    style="@style/Text.Large"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/default_margin"
+                    android:textColor="@color/text_primary"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_branding_five"
+                    android:paddingBottom="@dimen/horizontal_margin_half"
+                    android:paddingTop="@dimen/horizontal_margin_half"
+                    android:paddingLeft="@dimen/vertical_margin"
+                    android:paddingRight="@dimen/vertical_margin">
+
+                    <TextView
+                        style="@style/Text.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="@string/calories"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/food_calories_value"
+                        style="@style/Text.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_branding_six"
+                    android:paddingBottom="@dimen/horizontal_margin_half"
+                    android:paddingTop="@dimen/horizontal_margin_half"
+                    android:paddingLeft="@dimen/vertical_margin"
+                    android:paddingRight="@dimen/vertical_margin">
+
+                    <TextView
+                        style="@style/Text.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/protein"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/food_protein_value"
+                        style="@style/Text.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_branding_five"
+                    android:paddingBottom="@dimen/horizontal_margin_half"
+                    android:paddingTop="@dimen/horizontal_margin_half"
+                    android:paddingLeft="@dimen/vertical_margin"
+                    android:paddingRight="@dimen/vertical_margin">
+
+                    <TextView
+                        style="@style/Text.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/carbohydrate"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/food_carbohydrate_value"
+                        style="@style/Text.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_branding_six"
+                    android:paddingBottom="@dimen/horizontal_margin_half"
+                    android:paddingTop="@dimen/horizontal_margin_half"
+                    android:paddingLeft="@dimen/vertical_margin"
+                    android:paddingRight="@dimen/vertical_margin">
+
+                    <TextView
+                        style="@style/Text.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/fiber"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/food_fiber_value"
+                        style="@style/Text.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_branding_five"
+                    android:paddingBottom="@dimen/horizontal_margin_half"
+                    android:paddingTop="@dimen/horizontal_margin_half"
+                    android:paddingLeft="@dimen/vertical_margin"
+                    android:paddingRight="@dimen/vertical_margin">
+
+                    <TextView
+                        style="@style/Text.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/fat"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/food_fat_value"
+                        style="@style/Text.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

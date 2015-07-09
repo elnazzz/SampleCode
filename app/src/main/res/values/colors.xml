@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_branding_one">#EF5350</color>
+    <color name="color_branding_two">#FFCDD2</color>
+    <color name="color_branding_three">#C62828</color>
+    <color name="color_branding_four">#FF8A65</color>
+    <color name="color_branding_five">#FFF59D</color>
+    <color name="color_branding_six">#FFF9C4</color>
+    <color name="color_branding_seven">#FFC52A</color>
+    <color name="color_branding_eight">#43A047</color>
+    <color name="color_branding_nine">#B39DDB</color>
+    <color name="color_branding_ten">#5E35B1</color>
+
+    <color name="primary">@color/color_branding_one</color>
+    <color name="primary_light">@color/color_branding_two</color>
+    <color name="primary_dark">@color/color_branding_three</color>
+
+    <color name="accent">@color/white</color>
+    <color name="accent_light">@color/color_branding_nine</color>
+    <color name="accent_dark">@color/color_branding_ten</color>
+
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="text_primary">@color/accent_dark</color>
+    <color name="text_secondary">@color/white</color>
+
+
+
+
+</resources>

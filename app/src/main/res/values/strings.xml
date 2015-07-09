@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="search_hint">Search</string>
+    <string name="search">Search</string>
+    <string name="calories">Calories</string>
+    <string name="protein">Protein</string>
+    <string name="carbohydrate">Carbohydrate</string>
+    <string name="fiber">Fiber</string>
+    <string name="fat">Fat</string>
+    <string name="nutrition_facts">Nutrition Facts</string>
+    <string name="my_saved_foods">My Saved Foods</string>
+    <string name="favourite">Favourite</string>
+    <string name="generic_error">An error happened!</string>
+    <string name="is_not_favorite">is not favorite</string>
+    <string name="is_favorite">is favorite</string>
+</resources>
